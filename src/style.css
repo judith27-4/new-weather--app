@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    color:fuchsia;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+}
+li{
+    list-style: none;
+    margin: 0;
+    color:lawngreen;
+    padding: 0;
+    font-style: italic;
+    font-size: large;
+    font-weight: 200;
+    line-height: 20px;
+}
+.weather-app-wrapper{
+    max-width: 600px;
+    margin:30px auto;
+}
+.weather-app{
+    padding:20px;
+    border: 1px rgb(55, 54, 115);
+}
+.weather-temperature strong{
+color:rgba(255, 71, 126, 0.769);
+    line-height: 1;
+    font-weight: 300;
+}
+.weather-temperature.units{
+    position:relative;
+    font-size: 18px;
+
+}
+.weather-temperature.active{
+    color:seagreen;
+    cursor: default;
+}
+.weather-temperature.active:hover{
+    text-decoration: none;
+}
+.weather-forecast-date{
+    font-size: 10px;
+    opacity: o.5;
+}
+.weather-forecast-temperature-min{
+    font-size: 18px;
+}
